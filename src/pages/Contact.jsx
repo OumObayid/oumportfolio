@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Form, Button, Alert, Container, Spinner } from "react-bootstrap";
+import { Form, Button, Alert, Spinner } from "react-bootstrap";
 import axios from "axios";
 
 const Contact = () => {
@@ -146,7 +146,7 @@ const Contact = () => {
               variant="white"
               type="submit"
               disabled={loading}
-              className="btn btn-sm btn-outline-dark mt-auto w-100 mt3"
+              className="btn btn-sm btn-outline-dark mt-auto w-100 mt3" 
             >
               {loading ? <Spinner animation="border" size="sm" /> : "✈️   Envoyer"}
             </Button>

@@ -9,8 +9,17 @@ const projetsList = [
       Une section contact permet d’échanger et de collaborer facilement.`,
       image: "/images/oumportfolio.png",
       techStack: ["React.js + Vite", "Php", "Css3", "Bootstrap"],
-      linkSite: "https://learnweb.oumportfolio.com",
+      linkSite: "https://oumportfolio.com",
       linkGit: "https://github.com/OumObayid/oumportfolio",
+    },
+     {
+      title: "Flowers Oum – Votre boutique florale en ligne (créée en 2025)",
+      description: `Flowers Oum est une plateforme de vente de fleurs et d’articles floraux, conçue avec Angular, PHP, et MySQL pour une expérience utilisateur fluide et dynamique. Le site utilise Bootstrap et CSS3 pour un design moderne, responsive et élégant, adapté à tous les écrans.      
+      La navigation est intuitive et sécurisée, offrant une expérience agréable du choix du produit jusqu’au paiement.`,
+      image: "/images/florist.jpg",
+      techStack: ["Angular", "Php", "Mysql", "Css3", "Bootstrap"],
+      linkSite: "https://florist.oumportfolio.com",
+      linkGit: "https://github.com/OumObayid/florist",
     },
     {
       title: "Application LearnWeb (créée en 2025)",
@@ -21,8 +30,16 @@ const projetsList = [
       Chaque section illustre les bonnes pratiques et l’organisation du code.`,
       image: "/images/learnweb.png",
       techStack: ["Angular", "Firebase", "Node.js", "Json", "Php", "Css3", "Bootstrap"],
-      linkSite: "https://oumportfolio.com",
+      linkSite: "https://learnweb.oumportfolio.com",
       linkGit: "https://github.com/OumObayid/oumportfolio",
+    },
+      {
+      title: "Ardeco – Meubles et décoration avec livraison à domicile (créée en 2024)",
+      description: `Ardeco est un site e-commerce moderne dédié à la vente de meubles et objets de décoration pour la maison. Les utilisateurs peuvent facilement parcourir les produits, choisir la quantité et la couleur, et saisir leurs informations pour une livraison à domicile rapide et sécurisée. Le site inclut également une interface d’administration complète pour gérer les catégories, les produits et les commandes, offrant une expérience fluide tant pour les clients que pour les administrateurs`,
+      image: "/images/eshop.png",
+      techStack: ["Laravel", "PHP", "JavaScript", "HTML5", "CSS3", "Bootstrap"],
+      linkSite: "https://ardeco.oumportfolio.com",
+      linkGit: "https://github.com/OumObayid/ardeco",
     },
     {
       title: "Application eSHop (créée en 2022)",
