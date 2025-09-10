@@ -4,9 +4,8 @@ import Contact from "../pages/Contact";
 import Projets from "../pages/Projets";
 import Skills from "../pages/skills";
 import About from "../pages/About";
-import CvPage from "../pages/CvPage";
 import Guestbook from "../pages/Guestbook";
-
+import CvPage from "../pages/CvPage"
 export default function AppRoutes() {
   return (
     <Routes>

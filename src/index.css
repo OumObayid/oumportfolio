@@ -26,7 +26,7 @@ html, body {
 ================================ */
 :root {
   /* Couleurs */
-  --primary: #fab347;        /* Couleur accent (orange) */
+  --primary: gold;        /* Couleur accent (orange) */
   --primaryClear: #f8d094;        
   --primaryFonce: #b27a25;        
   --secondary: #6c757d;      /* Gris secondaire */
@@ -139,7 +139,7 @@ footer hr {
     #212529,  /* couleur de base */
     #1a1c20   /* bas plus foncé pour profondeur */
   );
-  border-bottom: 4px solid var(--primary); /* légèrement plus épais */
+  border-bottom: 4px solid var(--primary); 
   border-radius: 0 0 25px 25px; /* arrondi bas accentué */
   box-shadow: 
     inset 0 14px 20px rgba(255, 255, 255, 0.15), /* reflet interne plus visible */

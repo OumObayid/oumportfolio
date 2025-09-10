@@ -1,0 +1,6 @@
+.bg-fond {
+  background-image: url('/fond.jpg'); /* fond.jpg doit être dans /public */
+  background-size: cover;   /* L’image couvre tout le div */
+  background-position: center; /* Centrée */
+  background-repeat: no-repeat; /* Pas de répétition */
+}

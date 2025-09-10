@@ -1,0 +1,38 @@
+.cv-section-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #766a01 !important;
+}
+
+/* Cards communes */
+.cv-card {
+  background-color: #f7ebd3 !important;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cv-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.cv-card .badge {
+  font-size: 0.8rem;
+}
+
+.cv-card.skills, .cv-card.projects {
+  min-height: 130px !important;
+}
+
+.cv-card>h5{
+    color: rgb(194, 147, 5) !important;
+}
+.cv-card.cv-experience{
+    min-height: 180px;
+}

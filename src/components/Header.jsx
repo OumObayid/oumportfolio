@@ -62,6 +62,11 @@ function Header() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/cv">
+                Cv
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/guestbook">
                 Livre d'or
               </Link>

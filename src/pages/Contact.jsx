@@ -79,8 +79,8 @@ const Contact = () => {
   return (
     <section className="container my-3">
       <div className="text-center mb-5">
-        <h2 className="fw-bold display-5">Contactez-moi</h2>
-        <p className="text-muted fs-6">
+        <h2 className="fw-bold display-6">Contactez-moi</h2>
+        <p className="text-muted fs-5">
           N’hésitez pas à me laisser un message pour toute question ou
           collaboration.
         </p>

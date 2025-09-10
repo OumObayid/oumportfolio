@@ -6,6 +6,7 @@ export default function ProjectCard({
   techStack,
   linkSite,
   linkGit,
+  linkYoutube,
 }) {
   return (
     <div
@@ -33,7 +34,9 @@ export default function ProjectCard({
       )}
 
       <div className="card-body d-flex flex-column">
-        <h5 style={{color:"orange"}} className="card-title fw-bold">{title}</h5>
+        <h5 style={{ color: "orange" }} className="card-title fw-bold">
+          {title}
+        </h5>
         <p className="card-text text-muted flex-grow-1">{description}</p>
 
         {techStack && (
@@ -59,28 +62,39 @@ export default function ProjectCard({
             )}
           </div>
         )}
+        <div className="d-flex flex-column justify-content-end">
+          {linkSite && linkGit && (
+            <a
+              href={linkSite}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-sm btn-outline-dark w-100 mt-3"
+            >
+              Voir le site en ligne
+            </a>
+          )}
 
-        {linkSite && linkGit && (
-          <a
-            href={linkSite}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-sm btn-outline-dark mt-auto w-100 mb-3"
-          >
-            Voir le site en ligne
-          </a>
-        )}
-
-        {linkGit && (
-          <a
-            href={linkGit}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-sm btn-outline-dark mt-auto w-100"
-          >
-            Voir le projet sur github
-          </a>
-        )}
+          {linkGit && (
+            <a
+              href={linkGit}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-sm btn-outline-dark w-100 mt-3"
+            >
+              Voir le projet sur github
+            </a>
+          )}
+          {linkYoutube && (
+            <a
+              href={linkYoutube}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-sm btn-outline-dark  mt-3 w-100"
+            >
+              Voir la presentation sur Youtube
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );

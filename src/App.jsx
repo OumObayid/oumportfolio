@@ -10,24 +10,27 @@ function AppWrapper() {
 
   return (
   
-    <div
-      className="d-flex flex-column "
-      style={{
-        minHeight: "60vh",
-        backgroundImage: isHome ? "url('/images/hero.jpg')" : "none",
-        backgroundSize: "cover",
-        backgroundPosition: "bottom center", // <-- Partie basse visible
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      <Header />
+   <div
+  className="d-flex flex-column"
+  style={{
+    minHeight: "60vh",
+    backgroundImage: isHome
+      ? "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), linear-gradient(rgba(255,165,0,0.2), rgba(255,165,0,0.2)), url('/images/hero.jpg')"
+      : "none",
+    backgroundSize: "cover",
+    backgroundPosition: "bottom center",
+    backgroundRepeat: "no-repeat",
+  }}
+>
+  <Header />
 
-      <main className="flex-grow-1">
-        <AppRoutes />
-      </main>
+  <main className="flex-grow-1">
+    <AppRoutes />
+  </main>
 
-      <Footer />
-    </div>
+  <Footer />
+</div>
+
   );
 }
 

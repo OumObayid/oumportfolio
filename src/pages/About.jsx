@@ -6,8 +6,8 @@ const About = () => {
   return (
     <section id="about" className="my-3 bg-light">
       <div className="text-center mb-5">
-        <h2 className="fw-bold display-5">À propos de moi</h2>
-        <p className="text-muted fs-6">
+        <h2 className="fw-bold display-6">À propos de moi</h2>
+        <p className="text-muted fs-5">
     Découvrez mon parcours, mes compétences et ma passion pour le développement web.
         </p>
       </div>

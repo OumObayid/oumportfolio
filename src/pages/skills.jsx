@@ -7,10 +7,10 @@ export default function Skills() {
 
       {/* Titre de la page */}
       <div className="text-center mb-5">
-        <h2 className="fw-bold display-5" style={{ color: "#111827" }}>
+        <h2 className="fw-bold display-6" style={{ color: "#111827" }}>
           Compétences & Expertise
         </h2>
-        <p className="text-muted fs-6">
+        <p className="text-muted fs-5">
           Découvrez mes compétences techniques organisées par domaine
         </p>
       </div>

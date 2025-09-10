@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import "../styles/sCustom.css";
 export default function GuestbookForm({ onAdd }) {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
@@ -26,7 +27,7 @@ export default function GuestbookForm({ onAdd }) {
         setName("");
         setMessage("");
       } else {
-        setStatus( (response.data.message || "Erreur inconnue."));
+        setStatus(response.data.message || "Erreur inconnue.");
       }
     } catch (error) {
       console.error("Erreur axios :", error);
@@ -37,7 +38,15 @@ export default function GuestbookForm({ onAdd }) {
   };
 
   return (
-    <div className="p-4 border rounded-lg shadow bg-white mb-5">
+    <div
+      className="p-4 border rounded-lg shadow bg-white mb-5"
+      style={{
+        backgroundImage: "url('/images/fond.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <form
         onSubmit={handleSubmit}
         className="d-flex justify-content-center mt-4"
